@@ -145,6 +145,14 @@ Ce script va :
 2. Télécharger le modèle de base `phi3.5`.
 3. Créer le modèle personnalisé `phi3.5-financial` en utilisant le Modelfile situé dans `models/phi3.5_financial/` (le dataset `finance_dataset_final_clean.json` est utilisé en référence).
 
+**Ensuite, pour lancer l'interface de chat, exécutez à la racine du projet :**
+```bash
+npm install
+npm run dev
+```
+
+> L'interface sera accessible sur **http://localhost:5173** (ou le port affiché dans le terminal).
+
 ---
 
 
