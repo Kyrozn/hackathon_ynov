@@ -460,7 +460,7 @@ export default function TechCorpFinancialAI() {
   const scrollRef = useRef(null);
 
   const OLLAMA_URL = "http://localhost:11434/api/generate";
-  const MODEL_NAME = "phi3.5";
+  const MODEL_NAME = "phi-3.5-financial"; // Modifié pour le choix de l'équipe INFRA
 
   useEffect(() => {
     let cancelled = false;
