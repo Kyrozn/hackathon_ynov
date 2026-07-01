@@ -131,6 +131,22 @@
 
 ---
 
+## 🚀 DÉMARRAGE RAPIDE (OLLAMA)
+
+Un script d'initialisation est disponible pour mettre en place rapidement le serveur Ollama et le modèle `phi3.5-financial` dès le clonage du projet.
+
+**Exécutez la commande suivante sous PowerShell :**
+```powershell
+.\setup_ollama.ps1
+```
+
+Ce script va :
+1. Lancer un conteneur Docker pour Ollama.
+2. Télécharger le modèle de base `phi3.5`.
+3. Créer le modèle personnalisé `phi3.5-financial` en utilisant le Modelfile situé dans `models/phi3.5_financial/` (le dataset `finance_dataset_final_clean.json` est utilisé en référence).
+
+---
+
 
 ## 🛠️ RESSOURCES TECHNIQUES FOURNIES
 

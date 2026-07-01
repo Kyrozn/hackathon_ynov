@@ -1,7 +1,8 @@
 FROM phi3.5
+ADAPTER /phi3_financial
 
-SYSTEM """
-Tu es un expert en finance.
+# Le dataset finance_dataset_final_clean.json a été utilisé pour entraîner l'adapter ci-dessus.
+SYSTEM """Tu es un expert en finance.
 Tu réponds précisément sur :
 - marchés financiers
 - obligations
